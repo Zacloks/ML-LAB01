@@ -1,4 +1,7 @@
 consulta,categoria_busqueda,limite
-homicidio Chile,homicidio,5
-trafico de drogas Chile,trafico_drogas,5
-robo con violencia Chile,robo_con_violencia,5
+homicidio Chile,homicidio,10
+asesinato Chile,homicidio,10
+homicidio PDI detenidos Chile,homicidio,8
+trafico de drogas Chile,trafico_drogas,10
+narcotrafico Chile,trafico_drogas,10
+incautacion droga detenidos Chile,trafico_drogas,8

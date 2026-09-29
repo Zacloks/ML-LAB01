@@ -38,3 +38,6 @@ docs/
 # Sistema
 .DS_Store
 *.swp
+
+# Editor
+.vscode/
