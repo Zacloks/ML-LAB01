@@ -218,12 +218,53 @@ class EscritorVaultObsidian(EscritorObsidian):
                 total += 1
         print(f"    Entidades escritas: {total}")
 
+    def escribir_relaciones(self, noticias: list[dict]) -> int:
+        """Una nota por tipo de relación con todas sus aristas del corpus."""
+        tipos: dict[str, list[str]] = {}
+        for data in noticias:
+            for relacion in data.get("relaciones") or []:
+                linea = self._linea_relacion(relacion)
+                if linea:
+                    origen = enlace_obsidian(data["id_noticia"])
+                    tipos.setdefault(relacion["tipo"].strip(), []).append(f"{linea} — {origen}")
+        destino = self.vault / "Relaciones"
+        destino.mkdir(parents=True, exist_ok=True)
+        for tipo, aristas in tipos.items():
+            lineas = [f"# {tipo}", "", "Tipo: Relación", "", f"## Vínculos ({len(aristas)})"]
+            lineas += sorted(aristas)
+            (destino / f"{slugify(tipo)}.md").write_text(
+                "\n".join(lineas).rstrip() + "\n", encoding="utf-8"
+            )
+        return len(tipos)
+
     def escribir_indice(self, noticias: list[dict]) -> Path:
-        # TODO(alumno): índice navegable de toda la bóveda.
-        raise EtapaPendienteAlumno(
-            modulo="src.conocimiento.obsidian.EscritorVaultObsidian.escribir_indice",
-            pista="Escriba 00_Indice.md listando noticias y entidades.",
-        )
+        """00_Indice.md: noticias y entidades ordenadas por frecuencia."""
+        indices = self._indices(noticias)
+        lineas = [
+            "# Índice del vault",
+            "",
+            f"Noticias procesadas: {len(noticias)}",
+            "",
+            f"## Noticias ({len(noticias)})",
+            "",
+        ]
+        for data in sorted(noticias, key=lambda d: d["id_noticia"]):
+            titulo = (data.get("titulo") or "").strip()
+            lineas.append(f"- {enlace_obsidian(data['id_noticia'])} {titulo}".rstrip())
+        lineas.append("")
+        for campo, (carpeta, _, _) in self.CATEGORIAS.items():
+            entradas = sorted(
+                indices[campo].values(), key=lambda e: (-len(e["noticias"]), e["nombre"])
+            )
+            lineas += [f"## {carpeta} ({len(entradas)})", ""]
+            lineas += [
+                f"- {enlace_obsidian(e['nombre'])} — {len(e['noticias'])} noticias"
+                for e in entradas
+            ]
+            lineas.append("")
+        ruta = self.vault / "00_Indice.md"
+        ruta.write_text("\n".join(lineas).rstrip() + "\n", encoding="utf-8")
+        return ruta
 
     def escribir_vault(self, noticias: list[dict]) -> None:
         """Crea la jerarquía del vault y escribe una nota por noticia."""
@@ -233,3 +274,5 @@ class EscritorVaultObsidian(EscritorObsidian):
             self.escribir_noticia(data)
         print(f"    Noticias escritas: {len(noticias)}")
         self.escribir_entidades(noticias)
+        print(f"    Tipos de relación: {self.escribir_relaciones(noticias)}")
+        print(f"    Índice: {self.escribir_indice(noticias).name}")
