@@ -24,6 +24,8 @@ _LINEAS_RUIDO = (
     "Lee también",
 )
 
+_SELECTOR_RESUMEN_IA = "#resumen-ia, .container-resumen-ia"
+
 
 class CapturadorBioBio(CapturadorFuente):
     """Extrae el cuerpo de una nota de www.biobiochile.cl."""
@@ -36,6 +38,8 @@ class CapturadorBioBio(CapturadorFuente):
 
     def extraer_cuerpo(self, html: str) -> str:
         soup = BeautifulSoup(html, "lxml")
+        for resumen in soup.select(_SELECTOR_RESUMEN_IA):
+            resumen.decompose()
         for selector in _SELECTORES:
             nodo = soup.select_one(selector)
             if nodo is None:

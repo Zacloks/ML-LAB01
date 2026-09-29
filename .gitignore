@@ -41,3 +41,6 @@ docs/
 
 # Editor
 .vscode/
+
+# Obsidian
+obsidian_vault/.obsidian

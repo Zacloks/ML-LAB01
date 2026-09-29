@@ -16,5 +16,7 @@ def slugify(text: str) -> str:
 
 
 def enlace_obsidian(nombre: str) -> str:
-    """Devuelve un wiki-link [[nombre]] para el grafo de Obsidian."""
-    return f"[[{nombre}]]"
+    """'Tráfico de drogas' → '[[Trafico_de_drogas|Tráfico de drogas]]'."""
+    texto = (nombre or "").strip()
+    destino = slugify(texto)
+    return f"[[{destino}]]" if destino == texto else f"[[{destino}|{texto}]]"

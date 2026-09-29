@@ -158,8 +158,15 @@ class PipelineLaboratorio:
     def ejecutar_obsidian(self) -> None:
         """TODO(alumno): JSON → notas Markdown enlazadas."""
         print("== Etapa: obsidian (vault) ==")
+        self.validador.reiniciar()
+        validos, invalidos = self.validador.validar_directorio(DIR_JSON)
+        if invalidos:
+            print(f"  JSON inválidos omitidos: {', '.join(invalidos)}")
+        if not validos:
+            print("  No hay JSON válidos. Ejecute primero: python main.py extraer")
+            return
         try:
-            self.escritor.escribir_vault([])
+            self.escritor.escribir_vault(validos)
         except EtapaPendienteAlumno as pendiente:
             print(pendiente)
 
