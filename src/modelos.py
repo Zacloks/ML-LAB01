@@ -3,12 +3,81 @@
 Las dataclasses reflejan el JSON esperado: noticia, personas, objetos y
 relaciones. Extraer solo lo explícito en el texto; si falta un dato, usar
 None o listas vacías.
+
+Los vocabularios controlados (roles, tipos de relación, tipos de objeto y
+catálogo de delitos) viven aquí para que el extractor, el validador y el
+escritor de Obsidian usen las mismas etiquetas.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
 from typing import Optional
+
+CAMPOS_OBLIGATORIOS = (
+    "id_noticia",
+    "titulo",
+    "fecha_publicacion",
+    "fuente",
+    "url",
+    "resumen",
+    "delitos",
+    "personas",
+    "organizaciones",
+    "lugares",
+    "objetos",
+    "relaciones",
+)
+
+ROLES_PERMITIDOS = (
+    "detenido",
+    "imputado",
+    "acusado",
+    "condenado",
+    "sospechoso",
+    "profugo",
+    "victima",
+    "testigo",
+    "fiscal",
+    "juez",
+    "abogado",
+    "policia",
+    "autoridad",
+    "familiar",
+    "otro",
+)
+
+TIPOS_RELACION = (
+    "INVESTIGADO_POR", 
+    "VICTIMA_DE",  
+    "DETENIDO_EN",  
+    "DETENIDO_POR", 
+    "PERTENECE_A",  
+    "OPERA_EN",  
+    "OCURRIO_EN", 
+    "INCAUTADO_EN",  
+    "INVESTIGA",  
+)
+
+TIPOS_OBJETO = ("arma", "sustancia", "vehiculo", "dinero", "otro")
+
+CATALOGO_DELITOS = (
+    "Homicidio",
+    "Homicidio frustrado",
+    "Robo con homicidio",
+    "Robo con violencia",
+    "Robo con intimidacion",
+    "Trafico de drogas",
+    "Microtrafico",
+    "Porte ilegal de armas",
+    "Tenencia ilegal de armas",
+    "Asociacion ilicita",
+    "Lavado de activos",
+    "Secuestro",
+    "Receptacion",
+    "Lesiones",
+    "Amenazas",
+)
 
 
 @dataclass

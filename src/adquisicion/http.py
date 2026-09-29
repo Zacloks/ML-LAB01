@@ -5,6 +5,7 @@ from __future__ import annotations
 import time
 
 import requests
+from requests.utils import get_encoding_from_headers
 
 from src.config import PAUSA_ENTRE_REQUESTS, TIMEOUT_HTTP, USER_AGENT
 
@@ -32,9 +33,19 @@ class ClienteHTTP:
             allow_redirects=permitir_redirects,
         )
         respuesta.raise_for_status()
-        if not respuesta.encoding:
-            respuesta.encoding = respuesta.apparent_encoding or "utf-8"
+        respuesta.encoding = self._codificacion(respuesta)
         return respuesta
+
+    @staticmethod
+    def _codificacion(respuesta: requests.Response) -> str:
+        declarada = get_encoding_from_headers(respuesta.headers)
+        if declarada and declarada.lower() not in ("iso-8859-1", "latin-1"):
+            return declarada
+        try:
+            respuesta.content.decode("utf-8")
+            return "utf-8"
+        except UnicodeDecodeError:
+            return respuesta.apparent_encoding or declarada or "utf-8"
 
     def texto(self, url: str) -> str:
         """Cuerpo de la respuesta como texto."""

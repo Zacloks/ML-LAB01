@@ -18,6 +18,12 @@ _SELECTORES = (
     "article",
 )
 
+_LINEAS_RUIDO = (
+    "VER RESUMEN",
+    "Resumen generado con una herramienta",
+    "Lee también",
+)
+
 
 class CapturadorBioBio(CapturadorFuente):
     """Extrae el cuerpo de una nota de www.biobiochile.cl."""
@@ -32,8 +38,20 @@ class CapturadorBioBio(CapturadorFuente):
         soup = BeautifulSoup(html, "lxml")
         for selector in _SELECTORES:
             nodo = soup.select_one(selector)
-            if nodo:
-                texto = nodo.get_text("\n", strip=True)
-                if len(texto) > 120:
-                    return texto
+            if nodo is None:
+                continue
+            parrafos = [p.get_text(" ", strip=True) for p in nodo.find_all("p")]
+            texto = "\n".join(self._sin_ruido(parrafos))
+            if len(texto) <= 120:
+                texto = "\n".join(self._sin_ruido(nodo.get_text("\n", strip=True).splitlines()))
+            if len(texto) > 120:
+                return texto
         return ""
+
+    @staticmethod
+    def _sin_ruido(lineas: list[str]) -> list[str]:
+        return [
+            linea
+            for linea in lineas
+            if linea and not any(linea.startswith(ruido) for ruido in _LINEAS_RUIDO)
+        ]

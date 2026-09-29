@@ -21,6 +21,9 @@ DIR_PROCESSED = DATA_DIR / "processed"
 DIR_JSON = DATA_DIR / "json"
 DIR_VAULT = RAIZ / "obsidian_vault"
 
+RUTA_REGISTRO_EXTRACCION = DATA_DIR / "registro_extraccion.json"
+RUTA_REGISTRO_VALIDACION = DATA_DIR / "registro_validacion.json"
+
 # Identificación educada ante los servidores (uso académico).
 USER_AGENT = (
     "Mozilla/5.0 (compatible; LabNoticiasUCN/1.0; "
@@ -41,4 +44,12 @@ COLUMNAS_URLS = ["id_noticia", "fuente", "url", "categoria_busqueda"]
 
 # Gemini: la clave vive en .env (nunca en el código ni en Git).
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash").strip() or "gemini-2.0-flash"
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash").strip() or "gemini-3.8-flash"
+GEMINI_MODELOS_RESPALDO = [
+    modelo.strip()
+    for modelo in os.getenv(
+        "GEMINI_MODELOS_RESPALDO", "gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash-lite"
+    ).split(",")
+    if modelo.strip()
+]
+GEMINI_THINKING_LEVEL = os.getenv("GEMINI_THINKING_LEVEL", "low").strip()

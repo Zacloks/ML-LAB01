@@ -146,7 +146,13 @@ class PipelineLaboratorio:
             except Exception as exc:  # noqa: BLE001 — una noticia no debe tumbar el lote
                 fallos += 1
                 print(f"    Error: {exc}")
+
+        self.extractor.guardar_registro()
+        self.validador.reiniciar()
+        validos, invalidos = self.validador.validar_directorio(DIR_JSON)
+        self.validador.guardar_registro()
         print(f"Extracción finalizada: {ok} ok, {fallos} fallos, {len(noticias)} total")
+        print(f"JSON en data/json: {len(validos)} válidos, {len(invalidos)} inválidos")
         return ok, fallos
 
     def ejecutar_obsidian(self) -> None:
