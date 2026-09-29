@@ -20,6 +20,8 @@ DIR_RAW = DATA_DIR / "raw"
 DIR_PROCESSED = DATA_DIR / "processed"
 DIR_JSON = DATA_DIR / "json"
 DIR_VAULT = RAIZ / "obsidian_vault"
+DIR_RESULTADOS = RAIZ / "resultados"
+DIR_FIGURAS = DIR_RESULTADOS / "figuras"
 
 RUTA_REGISTRO_EXTRACCION = DATA_DIR / "registro_extraccion.json"
 RUTA_REGISTRO_VALIDACION = DATA_DIR / "registro_validacion.json"
@@ -44,7 +46,7 @@ COLUMNAS_URLS = ["id_noticia", "fuente", "url", "categoria_busqueda"]
 
 # Gemini: la clave vive en .env (nunca en el código ni en Git).
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash").strip() or "gemini-3.8-flash"
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite").strip() or "gemini-3.5-flash-lite"
 GEMINI_MODELOS_RESPALDO = [
     modelo.strip()
     for modelo in os.getenv(

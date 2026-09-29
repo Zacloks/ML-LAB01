@@ -11,7 +11,6 @@ from pathlib import Path
 
 from src.config import DIR_VAULT
 from src.conocimiento.utilidades import enlace_obsidian, slugify
-from src.excepciones import EtapaPendienteAlumno
 
 
 class EscritorObsidian(ABC):
@@ -266,10 +265,17 @@ class EscritorVaultObsidian(EscritorObsidian):
         ruta.write_text("\n".join(lineas).rstrip() + "\n", encoding="utf-8")
         return ruta
 
+    def limpiar_vault(self) -> None:
+        """Borra las notas de la corrida anterior para no dejar notas huérfanas."""
+        for carpeta in self.SUBCARPETAS:
+            for nota in (self.vault / carpeta).glob("*.md"):
+                nota.unlink()
+
     def escribir_vault(self, noticias: list[dict]) -> None:
         """Crea la jerarquía del vault y escribe una nota por noticia."""
         for carpeta in self.SUBCARPETAS:
             (self.vault / carpeta).mkdir(parents=True, exist_ok=True)
+        self.limpiar_vault()
         for data in noticias:
             self.escribir_noticia(data)
         print(f"    Noticias escritas: {len(noticias)}")

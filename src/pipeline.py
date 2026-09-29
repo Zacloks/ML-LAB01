@@ -1,7 +1,7 @@
 """Orquestación OOP del laboratorio (CRISP-DM adaptado).
 
-Etapas implementadas: descubrimiento, captura/limpieza y extracción Gemini.
-Etapas pendientes del alumno: vault Obsidian y análisis.
+Etapas: descubrimiento (RSS), captura/limpieza, extracción Gemini con
+validación JSON, vault de Obsidian y Data Understanding.
 """
 
 from __future__ import annotations
@@ -156,7 +156,7 @@ class PipelineLaboratorio:
         return ok, fallos
 
     def ejecutar_obsidian(self) -> None:
-        """TODO(alumno): JSON → notas Markdown enlazadas."""
+        """JSON validado → notas Markdown enlazadas."""
         print("== Etapa: obsidian (vault) ==")
         self.validador.reiniciar()
         validos, invalidos = self.validador.validar_directorio(DIR_JSON)
@@ -171,7 +171,7 @@ class PipelineLaboratorio:
             print(pendiente)
 
     def ejecutar_analisis(self) -> None:
-        """TODO(alumno): Data Understanding y visualizaciones."""
+        """Data Understanding: gráficos y métricas en resultados/."""
         print("== Etapa: analizar (Data Understanding) ==")
         try:
             self.explorador.ejecutar()
@@ -179,7 +179,7 @@ class PipelineLaboratorio:
             print(pendiente)
 
     def ejecutar_pipeline(self) -> None:
-        """Corre lo implementado y avisa las etapas que el alumno debe completar."""
+        """Corre todas las etapas en orden (descubrir agrega URLs nuevas a urls.csv)."""
         self.ejecutar_descubrimiento()
         self.ejecutar_captura()
         self.ejecutar_extraccion()
