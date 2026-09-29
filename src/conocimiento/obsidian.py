@@ -10,7 +10,7 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 
 from src.config import DIR_VAULT
-from src.conocimiento.utilidades import enlace_obsidian
+from src.conocimiento.utilidades import enlace_obsidian, slugify
 from src.excepciones import EtapaPendienteAlumno
 
 
@@ -140,12 +140,83 @@ class EscritorVaultObsidian(EscritorObsidian):
             return ""
         return f"- {enlace_obsidian(origen)} -- {tipo} --> {enlace_obsidian(destino)}"
 
+    CATEGORIAS = {
+        "delitos": ("Delitos", "Delito", "Delitos asociados"),
+        "personas": ("Personas", "Persona", "Personas relacionadas"),
+        "organizaciones": ("Organizaciones", "Organización", "Organizaciones relacionadas"),
+        "lugares": ("Lugares", "Lugar", "Lugares"),
+        "objetos": ("Objetos", "Objeto", "Objetos"),
+    }
+
+    @staticmethod
+    def _nombres(data: dict, campo: str) -> list[str]:
+        """Nombres de una categoría; personas y objetos vienen como objetos."""
+        valores = data.get(campo) or []
+        if campo in ("personas", "objetos"):
+            valores = [v.get("nombre") for v in valores if isinstance(v, dict)]
+        return [v.strip() for v in valores if isinstance(v, str) and v.strip()]
+
+    def _indices(self, noticias: list[dict]) -> dict:
+        """Invierte el corpus: por categoría, slug → nombre y noticias donde aparece."""
+        indices = {campo: {} for campo in self.CATEGORIAS}
+        for data in noticias:
+            for campo in self.CATEGORIAS:
+                for nombre in self._nombres(data, campo):
+                    entrada = indices[campo].setdefault(
+                        slugify(nombre), {"nombre": nombre, "noticias": set()}
+                    )
+                    entrada["noticias"].add(data["id_noticia"])
+        return indices
+
+    @staticmethod
+    def _roles(noticias: list[dict]) -> dict:
+        """slug de persona → roles que el corpus le atribuye."""
+        roles: dict[str, set] = {}
+        for data in noticias:
+            for persona in data.get("personas") or []:
+                nombre = (persona.get("nombre") or "").strip()
+                rol = (persona.get("rol") or "").strip()
+                if nombre and rol:
+                    roles.setdefault(slugify(nombre), set()).add(rol)
+        return roles
+
+    def _relacionadas(self, campo: str, ids: set, por_id: dict, propio: str) -> list[str]:
+        """Entidades de otra categoría que comparten noticia con esta."""
+        nombres = {
+            nombre
+            for nid in ids
+            for nombre in self._nombres(por_id.get(nid, {}), campo)
+            if slugify(nombre) != propio
+        }
+        return sorted(nombres)
+
     def escribir_entidades(self, noticias: list[dict]) -> None:
-        # TODO(alumno): índices con defaultdict(set) agrupando por entidad.
-        raise EtapaPendienteAlumno(
-            modulo="src.conocimiento.obsidian.EscritorVaultObsidian.escribir_entidades",
-            pista="Una nota por delito/persona/lugar con la lista de noticias relacionadas.",
-        )
+        """Una nota por delito, persona, organización, lugar y objeto."""
+        indices = self._indices(noticias)
+        roles = self._roles(noticias)
+        por_id = {d["id_noticia"]: d for d in noticias}
+        total = 0
+        for campo, (carpeta, etiqueta, _) in self.CATEGORIAS.items():
+            destino = self.vault / carpeta
+            destino.mkdir(parents=True, exist_ok=True)
+            for clave, entrada in indices[campo].items():
+                lineas = [f"# {entrada['nombre']}", "", f"Tipo: {etiqueta}", ""]
+                lineas += self._seccion(
+                    "Noticias relacionadas", sorted(entrada["noticias"])
+                )
+                if campo == "personas" and roles.get(clave):
+                    lineas += self._seccion("Rol observado", sorted(roles[clave]), lambda r: f"- {r}")
+                for otro, (_, _, titulo) in self.CATEGORIAS.items():
+                    if otro == campo:
+                        continue
+                    lineas += self._seccion(
+                        titulo, self._relacionadas(otro, entrada["noticias"], por_id, clave)
+                    )
+                (destino / f"{clave}.md").write_text(
+                    "\n".join(lineas).rstrip() + "\n", encoding="utf-8"
+                )
+                total += 1
+        print(f"    Entidades escritas: {total}")
 
     def escribir_indice(self, noticias: list[dict]) -> Path:
         # TODO(alumno): índice navegable de toda la bóveda.
@@ -161,3 +232,4 @@ class EscritorVaultObsidian(EscritorObsidian):
         for data in noticias:
             self.escribir_noticia(data)
         print(f"    Noticias escritas: {len(noticias)}")
+        self.escribir_entidades(noticias)
