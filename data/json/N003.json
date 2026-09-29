@@ -1,0 +1,67 @@
+{
+  "id_noticia": "N003",
+  "titulo": "PDI detuvo a dos colombianos por el crimen: el presunto ajuste de cuentas narco detrás de horroroso homicidio en Curacaví",
+  "fecha_publicacion": "2026-07-14",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/pdi-detuvo-a-dos-colombianos-por-el-crimen-el-presunto-ajuste-de-cuentas-narco-detras-de-horroroso-homicidio-en-curacavi/",
+  "resumen": "La PDI detuvo a dos ciudadanos colombianos acusados de participar en un homicidio ocurrido en Curacavi. Los restos de la victima, que no ha sido identificada, fueron encontrados quemados y desmembrados. La Fiscalia formalizo a los imputados por homicidio calificado.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Walt Dapremont",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Ernesto Navarro",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia ECOH"
+  ],
+  "lugares": [
+    "Curacavi",
+    "Region Metropolitana",
+    "Callejon La Aurora"
+  ],
+  "objetos": [
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculo",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "canastos plasticos",
+      "cantidad": 2,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "combustible",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Fiscalia ECOH",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Curacavi"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id_noticia": "N032",
+  "titulo": "PDI incauta 8,5 kilos de ketamina en el aeropuerto y detiene a dos personas",
+  "fecha_publicacion": "2026-09-27",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/pdi-incauta-85-kilos-de-ketamina-provenientes-de-amsterdam-en-el-aeropuerto-dos-personas-detenidas/",
+  "resumen": "La PDI incauto 8,5 kilos de ketamina provenientes de Amsterdam en el aeropuerto internacional y detuvo a dos personas en Conchali. La operacion se realizo en coordinacion con la Fiscalia Local de Pudahuel mediante una entrega controlada.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Constanza Salas",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Conchali",
+      "rol": null
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Local de Pudahuel"
+  ],
+  "lugares": [
+    "Amsterdam",
+    "Paises Bajos",
+    "Conchali",
+    "Aeropuerto Internacional Arturo Merino Benitez",
+    "Holanda",
+    "Chile"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "ketamina",
+      "cantidad": 8.54,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "otro",
+      "nombre": "articulos de limpieza",
+      "cantidad": 15,
+      "unidad": "recipientes"
+    },
+    {
+      "tipo": "otro",
+      "nombre": "potes plasticos de quitamanchas para ropa",
+      "cantidad": 18,
+      "unidad": "unidades"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "OPERA_EN",
+      "destino": "Aeropuerto Internacional Arturo Merino Benitez"
+    },
+    {
+      "origen": "Fiscalia Local de Pudahuel",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    }
+  ]
+}

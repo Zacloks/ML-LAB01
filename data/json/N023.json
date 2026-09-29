@@ -1,0 +1,52 @@
+{
+  "id_noticia": "N023",
+  "titulo": "Adolescente de 16 anos muere baleado en Buin tras ser secuestrado desde fiesta en Puente Alto",
+  "fecha_publicacion": "2026-09-27",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/adolescente-de-16-anos-muere-baleado-en-buin-tras-ser-secuestrado-desde-fiesta-en-puente-alto/",
+  "resumen": "Un adolescente de 16 anos fue secuestrado en Puente Alto y asesinado a tiros en un sitio eriazo de Buin. La fiscalia y la PDI investigan el homicidio y el secuestro, analizando posibles vinculos con crimen organizado.",
+  "delitos": [
+    "Secuestro",
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Marcela Adasme",
+      "rol": "fiscal"
+    },
+    {
+      "nombre": "Walt Dapremont Gaete",
+      "rol": "policia"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia"
+  ],
+  "lugares": [
+    "Puente Alto",
+    "Buin",
+    "Region Metropolitana"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "armas de fuego",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculo",
+      "cantidad": 1,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Marcela Adasme",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    }
+  ]
+}

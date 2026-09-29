@@ -1,0 +1,65 @@
+{
+  "id_noticia": "N033",
+  "titulo": "5 detenidos, drogas y 2 rifles incautados deja allanamiento en San Antonio: menor de edad implicado",
+  "fecha_publicacion": "2026-09-26",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2026/09/26/5-detenidos-drogas-y-2-rifles-incautados-deja-allanamiento-en-san-antonio-menor-de-edad-implicado.shtml",
+  "resumen": "Cinco personas fueron detenidas por la PDI tras un allanamiento en San Antonio por microtrafico. En el procedimiento se incautaron drogas, dinero y dos rifles. Cuatro de los imputados pasaron a control de detencion en el Juzgado de Garantia.",
+  "delitos": [
+    "Microtrafico",
+    "Porte ilegal de armas"
+  ],
+  "personas": [],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Local de San Antonio",
+    "Juzgado de Garantia de San Antonio"
+  ],
+  "lugares": [
+    "San Antonio",
+    "Llolleo"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "cannabis sativa",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "rifles",
+      "cantidad": 2,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Microtrafico"
+    },
+    {
+      "origen": "Fiscalia Local de San Antonio",
+      "tipo": "INVESTIGA",
+      "destino": "Microtrafico"
+    },
+    {
+      "origen": "rifles",
+      "tipo": "INCAUTADO_EN",
+      "destino": "San Antonio"
+    }
+  ]
+}

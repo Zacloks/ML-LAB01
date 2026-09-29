@@ -1,0 +1,75 @@
+{
+  "id_noticia": "N009",
+  "titulo": "Gobierno decreta tres dias de duelo nacional por asesinato del cabo Cristopher Aguilera",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/28/gobierno-decreta-tres-dias-de-duelo-nacional-por-asesinato-del-cabo-cristopher-aguilera.shtml",
+  "resumen": "El gobierno decreto tres dias de duelo nacional tras el asesinato del cabo de Carabineros Cristopher Aguilera en la comuna de Lo Espejo. El efectivo policial fallecio tras recibir un disparo durante un patrullaje a pie, mientras que el atacante fue abatido en el lugar por otro funcionario.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Jose Antonio Kast",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Cristopher Aguilera",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Martin Arrau",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Cristopher Andres Aguilera Fernandez",
+      "rol": "victima"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros",
+    "Fiscalia"
+  ],
+  "lugares": [
+    "Lo Espejo",
+    "Chile",
+    "Las Dunas",
+    "Clinica Las Condes"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "arma de fuego",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "arma de servicio",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Cristopher Aguilera",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Cristopher Aguilera",
+      "tipo": "PERTENECE_A",
+      "destino": "Carabineros"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Lo Espejo"
+    }
+  ]
+}

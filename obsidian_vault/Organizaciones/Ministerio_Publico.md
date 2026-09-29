@@ -1,0 +1,70 @@
+# Ministerio Publico
+
+Tipo: Organización
+
+## Noticias relacionadas
+- [[N004]]
+- [[N018]]
+- [[N029]]
+- [[N030]]
+- [[N034]]
+
+## Delitos asociados
+- [[Homicidio]]
+- [[Homicidio_frustrado|Homicidio frustrado]]
+- [[Porte_ilegal_de_armas|Porte ilegal de armas]]
+- [[Trafico_de_drogas|Trafico de drogas]]
+
+## Personas relacionadas
+- [[Cristopher_Andres_Aguilera_Fernandez|Cristopher Andres Aguilera Fernandez]]
+- [[Juan_Castro_Bekios|Juan Castro Bekios]]
+- [[Juan_Cheuquiante_Arce|Juan Cheuquiante Arce]]
+- [[Marcelo_Araya|Marcelo Araya]]
+- [[Martin_Arrau|Martin Arrau]]
+- [[Milibor_Bugueno_Gonzalez|Milibor Bugueño González]]
+- [[Ronald_Alvear|Ronald Alvear]]
+
+## Lugares
+- [[Alto_Hospicio|Alto Hospicio]]
+- [[Antofagasta]]
+- [[Coronel]]
+- [[La_Pintana|La Pintana]]
+- [[Las_Dunas|Las Dunas]]
+- [[Lo_Espejo|Lo Espejo]]
+- [[Lota]]
+- [[Playa_Blanca|Playa Blanca]]
+- [[Puente_Alto|Puente Alto]]
+- [[Region_Metropolitana|Region Metropolitana]]
+- [[Region_de_Tarapaca|Region de Tarapaca]]
+- [[Tocopilla]]
+- [[poblacion_El_Roble|poblacion El Roble]]
+- [[poblacion_San_Ricardo|poblacion San Ricardo]]
+- [[region]]
+
+## Objetos
+- [[Ketamina]]
+- [[MDMA]]
+- [[acido_clorhidrico_diluido|acido clorhidrico diluido]]
+- [[arma_de_fuego|arma de fuego]]
+- [[arma_de_servicio|arma de servicio]]
+- [[bicarbonato_de_sodio|bicarbonato de sodio]]
+- [[cargadores]]
+- [[cera]]
+- [[clorhidrato_de_cocaina|clorhidrato de cocaina]]
+- [[cocaina_base|cocaina base]]
+- [[dinero_en_efectivo|dinero en efectivo]]
+- [[evidencias_balisticas|evidencias balisticas]]
+- [[hidroxido_de_sodio|hidroxido de sodio]]
+- [[kit_Roni|kit Roni]]
+- [[marihuana]]
+- [[municiones]]
+- [[pasta_base|pasta base]]
+- [[pasta_base_de_cocaina|pasta base de cocaina]]
+- [[pesos]]
+- [[pesos_en_efectivo|pesos en efectivo]]
+- [[pistola_marca_Glock_calibre_9_mm|pistola marca Glock calibre 9 mm]]
+- [[revolver_calibre_38|revolver calibre .38]]
+- [[rifle]]
+- [[sustancias_ilicitas|sustancias ilicitas]]
+- [[vehiculo]]
+- [[vehiculos]]

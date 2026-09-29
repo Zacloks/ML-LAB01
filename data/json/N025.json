@@ -1,0 +1,90 @@
+{
+  "id_noticia": "N025",
+  "titulo": "PDI detiene a cuatro ciudadanos colombianos por trafico de drogas en sector Pequeña Caracas de Estacion Central",
+  "fecha_publicacion": "2026-08-16",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/pdi-detiene-a-cuatro-ciudadanos-colombianos-por-trafico-de-drogas-en-sector-pequena-caracas-de-estacion-central/",
+  "resumen": "La PDI detuvo a cuatro ciudadanos colombianos en la comuna de Estacion Central por el delito de trafico de drogas. Durante el procedimiento se incauto cannabis, dinero en efectivo, telefonos celulares, una balanza digital y un vehiculo.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Eduardo Valverde",
+      "rol": "policia"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia"
+  ],
+  "lugares": [
+    "Cerrillos",
+    "Estacion Central",
+    "Pequena Caracas"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "cannabis",
+      "cantidad": 1002.5,
+      "unidad": "gramos"
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": 205000,
+      "unidad": "pesos"
+    },
+    {
+      "tipo": "otro",
+      "nombre": "balanza digital",
+      "cantidad": 1,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "telefonos celulares",
+      "cantidad": 7,
+      "unidad": null
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "Kia Rio 5",
+      "cantidad": 1,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "OPERA_EN",
+      "destino": "Cerrillos"
+    },
+    {
+      "origen": "PDI",
+      "tipo": "OPERA_EN",
+      "destino": "Estacion Central"
+    },
+    {
+      "origen": "Trafico de drogas",
+      "tipo": "OCURRIO_EN",
+      "destino": "Estacion Central"
+    },
+    {
+      "origen": "Trafico de drogas",
+      "tipo": "OCURRIO_EN",
+      "destino": "Pequena Caracas"
+    },
+    {
+      "origen": "cannabis",
+      "tipo": "INCAUTADO_EN",
+      "destino": "Estacion Central"
+    },
+    {
+      "origen": "Fiscalia",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    }
+  ]
+}

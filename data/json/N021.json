@@ -1,0 +1,86 @@
+{
+  "id_noticia": "N021",
+  "titulo": "PDI desbarata banda que vendía drogas y tenía armas en Puente Alto: cuatro imputados quedan en prisión preventiva",
+  "fecha_publicacion": "2026-09-12",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/pdi-desbarata-banda-que-vendia-drogas-y-tenia-armas-en-puente-alto-cuatro-imputados-quedan-en-prision-preventiva/",
+  "resumen": "La PDI desarticuló una banda dedicada a la venta de drogas y delitos con armas en Puente Alto, logrando la detención de seis personas tras el allanamiento de tres inmuebles. Cuatro de los imputados quedaron en prisión preventiva tras ser formalizados por tráfico de drogas y tenencia ilegal de armas.",
+  "delitos": [
+    "Trafico de drogas",
+    "Amenazas",
+    "Porte ilegal de armas",
+    "Tenencia ilegal de armas"
+  ],
+  "personas": [
+    {
+      "nombre": "Lucas Riroroco",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Javier Carreño Lavin",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Regional Metropolitana Sur"
+  ],
+  "lugares": [
+    "Puente Alto",
+    "poblacion San Pedro"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "drogas",
+      "cantidad": 1.5,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "pistola calibre .22",
+      "cantidad": 1.0,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "escopeta calibre 12",
+      "cantidad": 1.0,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "arma a fogueo tipo revólver",
+      "cantidad": 1.0,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "rifle a postones",
+      "cantidad": 1.0,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Lucas Riroroco",
+      "tipo": "PERTENECE_A",
+      "destino": "PDI"
+    },
+    {
+      "origen": "Javier Carreño Lavin",
+      "tipo": "PERTENECE_A",
+      "destino": "Fiscalia Regional Metropolitana Sur"
+    },
+    {
+      "origen": "PDI",
+      "tipo": "OPERA_EN",
+      "destino": "Puente Alto"
+    },
+    {
+      "origen": "Fiscalia Regional Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    }
+  ]
+}

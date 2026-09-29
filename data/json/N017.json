@@ -1,0 +1,83 @@
+{
+  "id_noticia": "N017",
+  "titulo": "Allanamientos permiten incautar droga y armas de fuego en La Pintana: hay nueve detenidos",
+  "fecha_publicacion": "2026-09-10",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/allanamientos-permiten-incautar-droga-y-armas-de-fuego-en-la-pintana-hay-nueve-detenidos/",
+  "resumen": "Un operativo policial en la comuna de La Pintana culmino con la detencion de nueve personas y la incautacion de drogas, armas de fuego y dinero en efectivo. Las diligencias fueron realizadas por Carabineros en el marco de una investigacion por trafico de drogas y la Ley de Control de Armas.",
+  "delitos": [
+    "Trafico de drogas",
+    "Porte ilegal de armas",
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Javiera Garcia",
+      "rol": "policia"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros"
+  ],
+  "lugares": [
+    "La Pintana",
+    "El Castillo"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "marihuana",
+      "cantidad": 901,
+      "unidad": "gramos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": 704,
+      "unidad": "gramos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "ketamina",
+      "cantidad": 44,
+      "unidad": "gramos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "pasta base de cocaina",
+      "cantidad": 7,
+      "unidad": "gramos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "Deucotos",
+      "cantidad": 136,
+      "unidad": "frascos"
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": 4773000,
+      "unidad": "pesos"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "pistola",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "pistola",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "pistola",
+      "cantidad": 1,
+      "unidad": "unidad"
+    }
+  ],
+  "relaciones": []
+}

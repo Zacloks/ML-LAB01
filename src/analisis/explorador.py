@@ -14,6 +14,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 import pandas as pd  # noqa: E402
+from matplotlib.ticker import MaxNLocator  # noqa: E402
 
 from src.config import DIR_FIGURAS, DIR_JSON, DIR_RESULTADOS, RUTA_URLS  # noqa: E402
 from src.modelos import CAMPOS_OBLIGATORIOS  # noqa: E402
@@ -65,6 +66,7 @@ class ExploradorDatos:
         fig, ax = plt.subplots(figsize=(6.4, max(2.2, 0.3 * len(serie) + 1)))
         ax.bar_label(ax.barh(serie.index, serie.values, color=AZUL), padding=3, fontsize=7)
         ax.set_xlabel(eje)
+        ax.xaxis.set_major_locator(MaxNLocator(integer=True))
         ax.tick_params(labelsize=8)
         self._guardar(fig, nombre, titulo)
 
@@ -118,6 +120,7 @@ class ExploradorDatos:
         ax = tabla.plot.bar(color=[AZUL, NARANJO], rot=0, figsize=(6.4, 3))
         ax.set_xlabel("Entidades extraídas en la noticia")
         ax.set_ylabel("Noticias")
+        ax.yaxis.set_major_locator(MaxNLocator(integer=True))
         self._guardar(ax.figure, "05_entidades_por_noticia", "Personas y organizaciones por noticia")
         self.metricas["promedio_por_noticia"] = df.mean().round(2).to_dict()
         self.metricas["noticias_sin_personas"] = int((df["Personas"] == 0).sum())
@@ -137,6 +140,7 @@ class ExploradorDatos:
         fig, ax = plt.subplots(figsize=(6.4, 2.8))
         ax.bar(por_dia.index, por_dia.values, color=AZUL)
         ax.set_ylabel("Noticias")
+        ax.yaxis.set_major_locator(MaxNLocator(integer=True))
         fig.autofmt_xdate()
         self._guardar(fig, "07_evolucion_temporal", "Noticias por fecha de publicación")
         self.metricas["noticias_sin_fecha"] = len(self.noticias) - len(fechas)

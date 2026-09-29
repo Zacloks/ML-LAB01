@@ -1,0 +1,61 @@
+{
+  "id_noticia": "N012",
+  "titulo": "Poduje busca demoler edificios tomados por el narco en población donde asesinaron al cabo Aguilera",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/28/poduje-busca-demoler-edificios-tomados-por-el-narco-en-poblacion-donde-asesinaron-al-cabo-aguilera.shtml",
+  "resumen": "El ministro de Vivienda y Urbanismo, Ivan Poduje, anuncio la intencion de demoler edificios tomados por narcotraficantes en la comuna de Lo Espejo. La medida surge tras el asesinato del cabo segundo Cristopher Aguilera Fernandez en el sector. Ademas, se proyecta la creacion de un memorial y la recuperacion de espacios publicos.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Ivan Poduje",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Cristopher Andres Aguilera Fernandez",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Brayan Farias Diaz",
+      "rol": "detenido"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros"
+  ],
+  "lugares": [
+    "Lo Espejo",
+    "poblacion Las Dunas",
+    "parque Pablo Neruda"
+  ],
+  "objetos": [],
+  "relaciones": [
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "DETENIDO_EN",
+      "destino": "Lo Espejo"
+    },
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "PERTENECE_A",
+      "destino": "Carabineros"
+    },
+    {
+      "origen": "Brayan Farias Diaz",
+      "tipo": "DETENIDO_EN",
+      "destino": "Lo Espejo"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Lo Espejo"
+    }
+  ]
+}

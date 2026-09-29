@@ -1,0 +1,32 @@
+{
+  "id_noticia": "N016",
+  "titulo": "Homicidio en La Pintana: Hombre muere tras recibir al menos 18 disparos",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/homicidio-en-la-pintana-hombre-muere-tras-recibir-al-menos-18-disparos/",
+  "resumen": "Un hombre de 54 años murio tras recibir multiples disparos en la comuna de La Pintana cuando salia del domicilio de su hermana. La Fiscalia ECOH se encuentra investigando el homicidio ocurrido en la via publica.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Marcela Adasme",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "Fiscalia ECOH"
+  ],
+  "lugares": [
+    "La Pintana",
+    "Ines de Suarez con Los Alcaldes"
+  ],
+  "objetos": [],
+  "relaciones": [
+    {
+      "origen": "Fiscalia ECOH",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    }
+  ]
+}

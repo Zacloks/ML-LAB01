@@ -1,0 +1,73 @@
+{
+  "id_noticia": "N030",
+  "titulo": "Carabineros incauta más de una tonelada de droga destinada a la venta durante Fiestas Patrias",
+  "fecha_publicacion": "2026-09-17",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/carabineros-incauta-mas-de-una-tonelada-de-droga-destinada-a-la-venta-durante-fiestas-patrias-avaluo-supera-los-11-mil-millones/",
+  "resumen": "Carabineros y la fiscalia incautaron mas de una tonelada de droga en la Region Metropolitana y detuvieron a ocho personas vinculadas a organizaciones criminales. Los operativos se realizaron en el contexto previo a Fiestas Patrias.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Marcelo Araya",
+      "rol": "autoridad"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros",
+    "Fiscalia de Tamarugal",
+    "Fiscalia Metropolitana Sur",
+    "Ministerio Publico"
+  ],
+  "lugares": [
+    "Region Metropolitana",
+    "Puente Alto",
+    "Region de Tarapaca"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "marihuana",
+      "cantidad": 1258,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": 1.69,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "Ketamina",
+      "cantidad": 1.235,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "MDMA",
+      "cantidad": 79,
+      "unidad": "pastillas"
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculos",
+      "cantidad": 2,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "pistola marca Glock calibre 9 mm",
+      "cantidad": 1,
+      "unidad": null
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "pesos en efectivo",
+      "cantidad": 4000000,
+      "unidad": "pesos"
+    }
+  ],
+  "relaciones": []
+}

@@ -1,0 +1,44 @@
+{
+  "id_noticia": "N027",
+  "titulo": "Carabineros incauta mas de 1.250 kilos de marihuana en dos allanamientos en Calama",
+  "fecha_publicacion": "2026-09-26",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-de-antofagasta/2026/09/26/carabineros-incauta-mas-de-1-250-kilos-de-marihuana-en-dos-allanamientos-en-calama.shtml",
+  "resumen": "Carabineros realizo dos allanamientos en Calama que permitieron incautar mas de 1.250 kilos de marihuana. La droga fue encontrada en viviendas del sector poniente de la ciudad.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [],
+  "organizaciones": [
+    "Carabineros"
+  ],
+  "lugares": [
+    "Calama"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "marihuana",
+      "cantidad": 625,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "marihuana",
+      "cantidad": 630,
+      "unidad": "kilos"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "marihuana",
+      "tipo": "INCAUTADO_EN",
+      "destino": "Calama"
+    },
+    {
+      "origen": "Carabineros",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    }
+  ]
+}

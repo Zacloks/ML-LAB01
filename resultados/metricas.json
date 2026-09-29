@@ -1,0 +1,81 @@
+{
+  "noticias_por_fuente": {
+    "BioBioChile": {
+      "URLs": 14,
+      "JSON válidos": 14
+    },
+    "LaTercera": {
+      "URLs": 23,
+      "JSON válidos": 23
+    }
+  },
+  "delitos_frecuentes": {
+    "Homicidio": 21,
+    "Trafico de drogas": 17,
+    "Porte ilegal de armas": 8,
+    "Tenencia ilegal de armas": 2,
+    "Homicidio frustrado": 2,
+    "Robo con homicidio": 1,
+    "Lavado de activos": 1,
+    "Asociacion ilicita": 1,
+    "Amenazas": 1,
+    "Secuestro": 1
+  },
+  "lugares_frecuentes": {
+    "Region Metropolitana": 14,
+    "Lo Espejo": 8,
+    "Puente Alto": 6,
+    "Santiago": 5,
+    "Las Dunas": 4,
+    "La Pintana": 4,
+    "poblacion Las Dunas": 3,
+    "Chile": 3,
+    "Estacion Central": 3,
+    "San Ramon": 2,
+    "Cerrillos": 2,
+    "Clinica Las Condes": 2,
+    "Renca": 2,
+    "Antofagasta": 2,
+    "Playa Blanca": 2
+  },
+  "promedio_por_noticia": {
+    "Personas": 2.14,
+    "Organizaciones": 2.05
+  },
+  "noticias_sin_personas": 4,
+  "porcentaje_campos_vacios": {
+    "id_noticia": 0.0,
+    "titulo": 0.0,
+    "fecha_publicacion": 0.0,
+    "fuente": 0.0,
+    "url": 0.0,
+    "resumen": 0.0,
+    "delitos": 0.0,
+    "personas": 10.8,
+    "organizaciones": 2.7,
+    "lugares": 0.0,
+    "objetos": 21.6,
+    "relaciones": 5.4
+  },
+  "noticias_sin_fecha": 0,
+  "urls": 37,
+  "json_validos": 37,
+  "json_invalidos": [],
+  "sin_json": [],
+  "duplicadas": [],
+  "relaciones": 121,
+  "relaciones_sin_respaldo": 1,
+  "delitos_fuera_catalogo": 0,
+  "roles": {
+    "policia": 17,
+    "fiscal": 16,
+    "victima": 14,
+    "autoridad": 20,
+    "otro": 3,
+    "sospechoso": 2,
+    "detenido": 4,
+    "profugo": 1,
+    "imputado": 1,
+    "null": 1
+  }
+}

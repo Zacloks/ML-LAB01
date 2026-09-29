@@ -1,0 +1,53 @@
+{
+  "id_noticia": "N008",
+  "titulo": "Carabineros realiza multiples allanamientos en Lo Espejo tras asesinato del cabo Aguilera",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/28/videos-carabineros-realiza-multiples-allanamientos-en-lo-espejo-tras-asesinato-del-cabo-aguilera.shtml",
+  "resumen": "Carabineros realizo multiples allanamientos en la comuna de Lo Espejo en el marco de la investigacion por el asesinato del cabo segundo Cristopher Andres Aguilera Fernandez. El funcionario policial murio tras recibir un disparo durante un patrullaje preventivo. El operativo busca dar con el paradero de presuntos implicados en el crimen.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Cristopher Andres Aguilera Fernandez",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Brayan Farias Diaz",
+      "rol": "otro"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros"
+  ],
+  "lugares": [
+    "poblacion Las Dunas",
+    "Lo Espejo"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "disparo",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Lo Espejo"
+    },
+    {
+      "origen": "Carabineros",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    }
+  ]
+}

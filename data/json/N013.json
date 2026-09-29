@@ -1,0 +1,77 @@
+{
+  "id_noticia": "N013",
+  "titulo": "Detienen a nuevo implicado en robo con homicidio contra carabinero que realizaba una venta en Renca",
+  "fecha_publicacion": "2026-09-24",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/detienen-a-nuevo-implicado-en-robo-con-homicidio-contra-carabinero-que-realizaba-una-venta-en-renca/",
+  "resumen": "Un segundo sujeto fue detenido por su participacion en el robo con homicidio de un carabinero en la comuna de Renca. El hecho ocurrio durante una venta informal realizada por la victima, quien se encontraba de franco.",
+  "delitos": [
+    "Robo con homicidio",
+    "Porte ilegal de armas"
+  ],
+  "personas": [
+    {
+      "nombre": "Alejandro Ortiz",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Claudio Alejandro Valdivia Erazo",
+      "rol": "detenido"
+    },
+    {
+      "nombre": "Demmis Barrera",
+      "rol": "detenido"
+    },
+    {
+      "nombre": "Fernando Bozo",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Francisco Rivera",
+      "rol": "profugo"
+    },
+    {
+      "nombre": "Martin Arrau",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Maria del Pilar Giannini",
+      "rol": "autoridad"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros"
+  ],
+  "lugares": [
+    "Renca",
+    "Estacion Central"
+  ],
+  "objetos": [],
+  "relaciones": [
+    {
+      "origen": "Alejandro Ortiz",
+      "tipo": "VICTIMA_DE",
+      "destino": "Robo con homicidio"
+    },
+    {
+      "origen": "Claudio Alejandro Valdivia Erazo",
+      "tipo": "DETENIDO_EN",
+      "destino": "Estacion Central"
+    },
+    {
+      "origen": "Claudio Alejandro Valdivia Erazo",
+      "tipo": "DETENIDO_POR",
+      "destino": "Carabineros"
+    },
+    {
+      "origen": "Demmis Barrera",
+      "tipo": "DETENIDO_POR",
+      "destino": "Carabineros"
+    },
+    {
+      "origen": "Fernando Bozo",
+      "tipo": "PERTENECE_A",
+      "destino": "Carabineros"
+    }
+  ]
+}

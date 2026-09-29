@@ -1,0 +1,67 @@
+{
+  "id_noticia": "N014",
+  "titulo": "Tribunal decreta prisión preventiva para segundo imputado por homicidio de carabinero en Renca",
+  "fecha_publicacion": "2026-09-24",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/tribunal-decreta-prision-preventiva-para-segundo-imputado-por-homicidio-de-carabinero-en-renca/",
+  "resumen": "El tribunal decretó prisión preventiva para Claudio Valdivia Erazo, el segundo imputado por el homicidio del carabinero Alejandro Ortíz ocurrido en la comuna de Renca el pasado 27 de agosto. El sujeto fue detenido en Estación Central tras ser vinculado con el contacto inicial para una supuesta venta informal. Las autoridades mantienen abierta la investigación con un plazo de 120 dias.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Claudio Valdivia Erazo",
+      "rol": "imputado"
+    },
+    {
+      "nombre": "Alejandro Ortiz",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Francisco Rivera",
+      "rol": "sospechoso"
+    },
+    {
+      "nombre": "Cristian Paredes",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros",
+    "Fiscalia"
+  ],
+  "lugares": [
+    "Santiago",
+    "Renca",
+    "Poblacion El Perejil",
+    "Estacion Central"
+  ],
+  "objetos": [],
+  "relaciones": [
+    {
+      "origen": "Claudio Valdivia Erazo",
+      "tipo": "INVESTIGADO_POR",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Alejandro Ortiz",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Renca"
+    },
+    {
+      "origen": "Claudio Valdivia Erazo",
+      "tipo": "DETENIDO_EN",
+      "destino": "Estacion Central"
+    },
+    {
+      "origen": "Fiscalia",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    }
+  ]
+}

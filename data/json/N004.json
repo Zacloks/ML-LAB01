@@ -1,0 +1,70 @@
+{
+  "id_noticia": "N004",
+  "titulo": "Muere carabinero que resultó baleado en la cabeza tras procedimiento en Lo Espejo",
+  "fecha_publicacion": "2026-09-27",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/27/muere-carabinero-que-resulto-baleado-en-la-cabeza-tras-procedimiento-en-lo-espejo.shtml",
+  "resumen": "Un carabinero falleció tras recibir un disparo en la cabeza durante un procedimiento policial en la comuna de Lo Espejo. El agresor también murió en el lugar tras ser repelido por otro funcionario. Las autoridades lamentaron el hecho y fiscalía quedó a cargo de la investigación.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Cristopher Andres Aguilera Fernandez",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Juan Cheuquiante Arce",
+      "rol": "fiscal"
+    },
+    {
+      "nombre": "Marcelo Araya",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Martin Arrau",
+      "rol": "autoridad"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros",
+    "Fiscalia Regional Metropolitana Sur",
+    "Ministerio Publico"
+  ],
+  "lugares": [
+    "Lo Espejo",
+    "Region Metropolitana",
+    "Las Dunas"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "arma de servicio",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "evidencias balisticas",
+      "cantidad": 30.0,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Lo Espejo"
+    },
+    {
+      "origen": "Fiscalia Regional Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    }
+  ]
+}

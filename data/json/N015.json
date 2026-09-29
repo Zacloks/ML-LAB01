@@ -1,0 +1,50 @@
+{
+  "id_noticia": "N015",
+  "titulo": "Investigan asesinato en La Pintana: hombre fue baleado en m%c3%a1s de 15 ocasiones tras visitar a hermana",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/28/investigan-asesinato-en-la-pintana-hombre-fue-baleado-en-mas-de-15-ocasiones-tras-visitar-a-hermana.shtml",
+  "resumen": "Un hombre fue asesinado a disparos tras visitar a su hermana en la comuna de La Pintana. La fiscalia ECOH y la PDI quedaron a cargo de las indagatorias para dar con los responsables.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Marcela Adasme",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "Fiscalia",
+    "PDI"
+  ],
+  "lugares": [
+    "La Pintana"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "bala",
+      "cantidad": 15,
+      "unidad": "ocasiones"
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculo",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Fiscalia",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "La Pintana"
+    }
+  ]
+}

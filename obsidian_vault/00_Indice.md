@@ -1,0 +1,271 @@
+# Índice del vault
+
+Noticias procesadas: 37
+
+## Noticias (37)
+
+- [[N001]] Investigan asesinato en San Ramón: hombre muere tras ataque a tiros en población La Bandera
+- [[N002]] Prisión preventiva para imputado por homicidio en San Ramón: crimen habría estado ligado a deuda por drogas
+- [[N003]] PDI detuvo a dos colombianos por el crimen: el presunto ajuste de cuentas narco detrás de horroroso homicidio en Curacaví
+- [[N004]] Muere carabinero que resultó baleado en la cabeza tras procedimiento en Lo Espejo
+- [[N005]] Muere carabinero baleado en Lo Espejo: funcionario falleció tras permanecer grave en Clínica Las Condes
+- [[N006]] Quien era el cabo segundo Cristopher Aguilera, el carabinero asesinado a sangre fria
+- [[N007]] La trayectoria del carabinero Cristopher Aguilera: mártir de la policía uniformada baleado en Lo Espejo
+- [[N008]] Carabineros realiza multiples allanamientos en Lo Espejo tras asesinato del cabo Aguilera
+- [[N009]] Gobierno decreta tres dias de duelo nacional por asesinato del cabo Cristopher Aguilera
+- [[N010]] Alcaldesa Javiera Reyes tras homicidio de carabinero en Lo Espejo: necesitamos intervenciones profundas urgentes
+- [[N011]] Alcaldesa Javiera Reyes pide resguardo en Lo Espejo tras crimen narco
+- [[N012]] Poduje busca demoler edificios tomados por el narco en población donde asesinaron al cabo Aguilera
+- [[N013]] Detienen a nuevo implicado en robo con homicidio contra carabinero que realizaba una venta en Renca
+- [[N014]] Tribunal decreta prisión preventiva para segundo imputado por homicidio de carabinero en Renca
+- [[N015]] Investigan asesinato en La Pintana: hombre fue baleado en m%c3%a1s de 15 ocasiones tras visitar a hermana
+- [[N016]] Homicidio en La Pintana: Hombre muere tras recibir al menos 18 disparos
+- [[N017]] Allanamientos permiten incautar droga y armas de fuego en La Pintana: hay nueve detenidos
+- [[N018]] Prisión preventiva para dos líderes de banda que operaba laboratorio clandestino de drogas en La Pintana
+- [[N019]] PDI detiene a 21 personas y desarticula clan familiar dedicado al tráfico de drogas en Puente Alto
+- [[N020]] Prision preventiva para 17 imputados de organizacion criminal de Puente Alto por trafico, lavado y asociacion ilicita
+- [[N021]] PDI desbarata banda que vendía drogas y tenía armas en Puente Alto: cuatro imputados quedan en prisión preventiva
+- [[N022]] PDI desarticula banda liderada desde la carcel e incauta mas de 400 kilos de droga en La Florida y Pudahuel
+- [[N023]] Adolescente de 16 anos muere baleado en Buin tras ser secuestrado desde fiesta en Puente Alto
+- [[N024]] Detienen a dos líderes de banda criminal en San Bernardo: incautaron fusil de guerra, sustancias ilícitas y dinero en efectivo
+- [[N025]] PDI detiene a cuatro ciudadanos colombianos por trafico de drogas en sector Pequeña Caracas de Estacion Central
+- [[N026]] Operación Sintonía 1533: detienen en Chile a 7 integrantes de la mayor banda criminal de Brasil
+- [[N027]] Carabineros incauta mas de 1.250 kilos de marihuana en dos allanamientos en Calama
+- [[N028]] PDI desbarata banda que trasladaba más de 100 kilos de droga desde el norte a Santiago: 5 detenidos
+- [[N029]] Fiscalia y Carabineros desmantelan grupo criminal multinacional e incautan mas de 300 kilos de droga en Antofagasta
+- [[N030]] Carabineros incauta más de una tonelada de droga destinada a la venta durante Fiestas Patrias
+- [[N031]] PDI incauta más de 800 kilos de cannabis en operativo contra estructura criminal en la Region Metropolitana
+- [[N032]] PDI incauta 8,5 kilos de ketamina en el aeropuerto y detiene a dos personas
+- [[N033]] 5 detenidos, drogas y 2 rifles incautados deja allanamiento en San Antonio: menor de edad implicado
+- [[N034]] Acribillan un vehiculo cerca de local nocturno de Lota, dejando un hombre muerto y dos mujeres graves
+- [[N035]] Venta de droga habría derivado en asesinato y doble homicidio frustrado en Playa Blanca, Coronel
+- [[N036]] Investigan homicidio en Hualpen: victima fue llevada herida y abandonada en SAR Hualpencillo
+- [[N037]] Hombre muere baleado en Recoleta: investigan eventual robo de su automovil
+
+## Delitos (11)
+
+- [[Homicidio]] — 21 noticias
+- [[Trafico_de_drogas|Trafico de drogas]] — 17 noticias
+- [[Porte_ilegal_de_armas|Porte ilegal de armas]] — 8 noticias
+- [[Homicidio_frustrado|Homicidio frustrado]] — 2 noticias
+- [[Tenencia_ilegal_de_armas|Tenencia ilegal de armas]] — 2 noticias
+- [[Amenazas]] — 1 noticias
+- [[Asociacion_ilicita|Asociacion ilicita]] — 1 noticias
+- [[Lavado_de_activos|Lavado de activos]] — 1 noticias
+- [[Microtrafico]] — 1 noticias
+- [[Robo_con_homicidio|Robo con homicidio]] — 1 noticias
+- [[Secuestro]] — 1 noticias
+
+## Personas (52)
+
+- [[Cristopher_Andres_Aguilera_Fernandez|Cristopher Andres Aguilera Fernandez]] — 7 noticias
+- [[Martin_Arrau|Martin Arrau]] — 7 noticias
+- [[Brayan_Farias_Diaz|Brayan Farias Diaz]] — 3 noticias
+- [[Jose_Antonio_Kast|Jose Antonio Kast]] — 3 noticias
+- [[Marcela_Adasme|Marcela Adasme]] — 3 noticias
+- [[Alejandro_Ortiz|Alejandro Ortiz]] — 2 noticias
+- [[Cristopher_Aguilera|Cristopher Aguilera]] — 2 noticias
+- [[Enrique_Monras|Enrique Monras]] — 2 noticias
+- [[Francisco_Rivera|Francisco Rivera]] — 2 noticias
+- [[Hector_Cardenas_Venegas|Hector Cardenas Venegas]] — 2 noticias
+- [[Javier_Carreno_Lavin|Javier Carreno Lavin]] — 2 noticias
+- [[Javiera_Reyes|Javiera Reyes]] — 2 noticias
+- [[Juan_Cheuquiante|Juan Cheuquiante]] — 2 noticias
+- [[Marcelo_Araya|Marcelo Araya]] — 2 noticias
+- [[Ariel_Ramirez|Ariel Ramirez]] — 1 noticias
+- [[Brayan_Jose_Farias_Diaz|Brayan Jose Farias Diaz]] — 1 noticias
+- [[Claudio_Alejandro_Valdivia_Erazo|Claudio Alejandro Valdivia Erazo]] — 1 noticias
+- [[Claudio_Valdivia_Erazo|Claudio Valdivia Erazo]] — 1 noticias
+- [[Conchali]] — 1 noticias
+- [[Constanza_Salas|Constanza Salas]] — 1 noticias
+- [[Cristian_Jones|Cristian Jones]] — 1 noticias
+- [[Cristian_Paredes|Cristian Paredes]] — 1 noticias
+- [[Demmis_Barrera|Demmis Barrera]] — 1 noticias
+- [[Eduardo_Gatica|Eduardo Gatica]] — 1 noticias
+- [[Eduardo_Valverde|Eduardo Valverde]] — 1 noticias
+- [[Erick_Menay|Erick Menay]] — 1 noticias
+- [[Ernesto_Navarro|Ernesto Navarro]] — 1 noticias
+- [[Fernando_Bozo|Fernando Bozo]] — 1 noticias
+- [[Hector_Barros|Hector Barros]] — 1 noticias
+- [[Ignacio_Arriagada_Pampanoli|Ignacio Arriagada Pampanoli]] — 1 noticias
+- [[Ivan_Poduje|Ivan Poduje]] — 1 noticias
+- [[Javiera_Garcia|Javiera Garcia]] — 1 noticias
+- [[Jorge_Caceres|Jorge Caceres]] — 1 noticias
+- [[Jorge_Dreyse|Jorge Dreyse]] — 1 noticias
+- [[Jose_Manuel_Mac_Namara|Jose Manuel Mac-Namara]] — 1 noticias
+- [[Juan_Castro_Bekios|Juan Castro Bekios]] — 1 noticias
+- [[Juan_Cheuquiante_Arce|Juan Cheuquiante Arce]] — 1 noticias
+- [[Kast]] — 1 noticias
+- [[Lucas_Riroroco|Lucas Riroroco]] — 1 noticias
+- [[Lucas_Riroroko|Lucas Riroroko]] — 1 noticias
+- [[Manuel_Urrutia|Manuel Urrutia]] — 1 noticias
+- [[Marcelo_Navarro|Marcelo Navarro]] — 1 noticias
+- [[Maria_del_Pilar_Giannini|Maria del Pilar Giannini]] — 1 noticias
+- [[Milibor_Bugueno_Gonzalez|Milibor Bugueño González]] — 1 noticias
+- [[Naomi_Rebolledo|Naomi Rebolledo]] — 1 noticias
+- [[Pablo_Aguilera|Pablo Aguilera]] — 1 noticias
+- [[Pablo_Godoy|Pablo Godoy]] — 1 noticias
+- [[Richard_Soto|Richard Soto]] — 1 noticias
+- [[Ronald_Alvear|Ronald Alvear]] — 1 noticias
+- [[Sergio_Soto|Sergio Soto]] — 1 noticias
+- [[Walt_Dapremont|Walt Dapremont]] — 1 noticias
+- [[Walt_Dapremont_Gaete|Walt Dapremont Gaete]] — 1 noticias
+
+## Organizaciones (22)
+
+- [[PDI]] — 17 noticias
+- [[Carabineros]] — 16 noticias
+- [[Fiscalia]] — 7 noticias
+- [[Fiscalia_Metropolitana_Sur|Fiscalia Metropolitana Sur]] — 6 noticias
+- [[Fiscalia_Regional_Metropolitana_Sur|Fiscalia Regional Metropolitana Sur]] — 6 noticias
+- [[Ministerio_Publico|Ministerio Publico]] — 5 noticias
+- [[Policia_de_Investigaciones|Policia de Investigaciones]] — 3 noticias
+- [[Fiscalia_ECOH|Fiscalia ECOH]] — 2 noticias
+- [[Brigada_Antinarcoticos_Metropolitana|Brigada Antinarcoticos Metropolitana]] — 1 noticias
+- [[Fiscalia_Local_de_Pudahuel|Fiscalia Local de Pudahuel]] — 1 noticias
+- [[Fiscalia_Local_de_Puente_Alto|Fiscalia Local de Puente Alto]] — 1 noticias
+- [[Fiscalia_Local_de_San_Antonio|Fiscalia Local de San Antonio]] — 1 noticias
+- [[Fiscalia_Regional_Metropolitana_Centro_Norte|Fiscalia Regional Metropolitana Centro Norte]] — 1 noticias
+- [[Fiscalia_Regional_Metropolitana_Oriente|Fiscalia Regional Metropolitana Oriente]] — 1 noticias
+- [[Fiscalia_SAC_de_Antofagasta|Fiscalia SAC de Antofagasta]] — 1 noticias
+- [[Fiscalia_de_Tamarugal|Fiscalia de Tamarugal]] — 1 noticias
+- [[Gendarmeria]] — 1 noticias
+- [[Gobierno]] — 1 noticias
+- [[Juzgado_de_Garantia_de_San_Antonio|Juzgado de Garantia de San Antonio]] — 1 noticias
+- [[Labocar]] — 1 noticias
+- [[Policia_de_Investigaciones_PDI|Policia de Investigaciones (PDI)]] — 1 noticias
+- [[Primeiro_Comando_da_Capital|Primeiro Comando da Capital]] — 1 noticias
+
+## Lugares (63)
+
+- [[Region_Metropolitana|Region Metropolitana]] — 14 noticias
+- [[Lo_Espejo|Lo Espejo]] — 8 noticias
+- [[Puente_Alto|Puente Alto]] — 6 noticias
+- [[Santiago]] — 5 noticias
+- [[La_Pintana|La Pintana]] — 4 noticias
+- [[Las_Dunas|Las Dunas]] — 4 noticias
+- [[Chile]] — 3 noticias
+- [[Estacion_Central|Estacion Central]] — 3 noticias
+- [[poblacion_Las_Dunas|poblacion Las Dunas]] — 3 noticias
+- [[Antofagasta]] — 2 noticias
+- [[Cerrillos]] — 2 noticias
+- [[Clinica_Las_Condes|Clinica Las Condes]] — 2 noticias
+- [[Coronel]] — 2 noticias
+- [[Lota]] — 2 noticias
+- [[Playa_Blanca|Playa Blanca]] — 2 noticias
+- [[Region_del_Bio_Bio|Region del Bio Bio]] — 2 noticias
+- [[Renca]] — 2 noticias
+- [[San_Ramon|San Ramon]] — 2 noticias
+- [[Aeropuerto_Internacional_Arturo_Merino_Benitez|Aeropuerto Internacional Arturo Merino Benitez]] — 1 noticias
+- [[Alto_Hospicio|Alto Hospicio]] — 1 noticias
+- [[Amsterdam]] — 1 noticias
+- [[Brasil]] — 1 noticias
+- [[Buin]] — 1 noticias
+- [[Calama]] — 1 noticias
+- [[Callejon_La_Aurora|Callejon La Aurora]] — 1 noticias
+- [[Conchali]] — 1 noticias
+- [[Curacavi]] — 1 noticias
+- [[El_Castillo|El Castillo]] — 1 noticias
+- [[Holanda]] — 1 noticias
+- [[Hualpen]] — 1 noticias
+- [[Ines_de_Suarez_con_Los_Alcaldes|Ines de Suarez con Los Alcaldes]] — 1 noticias
+- [[Jose_Maria_Caro|Jose Maria Caro]] — 1 noticias
+- [[La_Florida|La Florida]] — 1 noticias
+- [[Llolleo]] — 1 noticias
+- [[Los_Olivos|Los Olivos]] — 1 noticias
+- [[Nunoa]] — 1 noticias
+- [[Paises_Bajos|Paises Bajos]] — 1 noticias
+- [[Parque_O_Higgins|Parque O'Higgins]] — 1 noticias
+- [[Penaflor]] — 1 noticias
+- [[Pequena_Caracas|Pequena Caracas]] — 1 noticias
+- [[Pirque]] — 1 noticias
+- [[Poblacion_El_Perejil|Poblacion El Perejil]] — 1 noticias
+- [[Poblacion_La_Bandera|Poblacion La Bandera]] — 1 noticias
+- [[Posta_Central|Posta Central]] — 1 noticias
+- [[Pudahuel]] — 1 noticias
+- [[Recoleta]] — 1 noticias
+- [[Region_de_Coquimbo|Region de Coquimbo]] — 1 noticias
+- [[Region_de_Tarapaca|Region de Tarapaca]] — 1 noticias
+- [[Riquelme_con_avenida_Almirante_Latorre|Riquelme con avenida Almirante Latorre]] — 1 noticias
+- [[Ruta_5_Norte|Ruta 5 Norte]] — 1 noticias
+- [[SAR_Hualpencillo|SAR Hualpencillo]] — 1 noticias
+- [[San_Antonio|San Antonio]] — 1 noticias
+- [[San_Bernardo|San Bernardo]] — 1 noticias
+- [[San_Pedro_de_la_Paz|San Pedro de la Paz]] — 1 noticias
+- [[Tocopilla]] — 1 noticias
+- [[avenida_Santa_Maria|avenida Santa Maria]] — 1 noticias
+- [[parque_Pablo_Neruda|parque Pablo Neruda]] — 1 noticias
+- [[poblacion_El_Roble|poblacion El Roble]] — 1 noticias
+- [[poblacion_Esperanza|poblacion Esperanza]] — 1 noticias
+- [[poblacion_Jose_Maria_Caro|poblacion Jose Maria Caro]] — 1 noticias
+- [[poblacion_San_Pedro|poblacion San Pedro]] — 1 noticias
+- [[poblacion_San_Ricardo|poblacion San Ricardo]] — 1 noticias
+- [[region]] — 1 noticias
+
+## Objetos (65)
+
+- [[dinero_en_efectivo|dinero en efectivo]] — 8 noticias
+- [[clorhidrato_de_cocaina|clorhidrato de cocaina]] — 7 noticias
+- [[arma_de_fuego|arma de fuego]] — 5 noticias
+- [[vehiculo]] — 5 noticias
+- [[marihuana]] — 4 noticias
+- [[arma_de_servicio|arma de servicio]] — 3 noticias
+- [[cannabis]] — 3 noticias
+- [[cocaina_base|cocaina base]] — 3 noticias
+- [[ketamina]] — 3 noticias
+- [[pasta_base_de_cocaina|pasta base de cocaina]] — 3 noticias
+- [[vehiculos]] — 3 noticias
+- [[armas]] — 2 noticias
+- [[cannabis_sativa|cannabis sativa]] — 2 noticias
+- [[evidencias_balisticas|evidencias balisticas]] — 2 noticias
+- [[sustancias_ilicitas|sustancias ilicitas]] — 2 noticias
+- [[Deucotos]] — 1 noticias
+- [[Ketamina]] — 1 noticias
+- [[Kia_Rio_5|Kia Rio 5]] — 1 noticias
+- [[MDMA]] — 1 noticias
+- [[acido_clorhidrico_diluido|acido clorhidrico diluido]] — 1 noticias
+- [[arma_a_fogueo_tipo_revolver|arma a fogueo tipo revólver]] — 1 noticias
+- [[arma_blanca|arma blanca]] — 1 noticias
+- [[arma_de_fuego_con_apariencia_de_un_lapiz|arma de fuego con apariencia de un lapiz]] — 1 noticias
+- [[armas_de_fuego|armas de fuego]] — 1 noticias
+- [[articulos_de_limpieza|articulos de limpieza]] — 1 noticias
+- [[automoviles]] — 1 noticias
+- [[bala]] — 1 noticias
+- [[balanza_digital|balanza digital]] — 1 noticias
+- [[bicarbonato_de_sodio|bicarbonato de sodio]] — 1 noticias
+- [[canastos_plasticos|canastos plasticos]] — 1 noticias
+- [[cargadores]] — 1 noticias
+- [[cartuchos]] — 1 noticias
+- [[cera]] — 1 noticias
+- [[chaleco_antibalas|chaleco antibalas]] — 1 noticias
+- [[cocaina]] — 1 noticias
+- [[combustible]] — 1 noticias
+- [[disparo]] — 1 noticias
+- [[disparos]] — 1 noticias
+- [[droga]] — 1 noticias
+- [[drogas]] — 1 noticias
+- [[efectivo]] — 1 noticias
+- [[escopeta_artesanal_tipo_hechiza|escopeta artesanal tipo hechiza]] — 1 noticias
+- [[escopeta_calibre_12|escopeta calibre 12]] — 1 noticias
+- [[especies_balisticas|especies balisticas]] — 1 noticias
+- [[evaluuo_droga|evaluuo droga]] — 1 noticias
+- [[fusil_de_guerra|fusil de guerra]] — 1 noticias
+- [[hidroxido_de_sodio|hidroxido de sodio]] — 1 noticias
+- [[kit_Roni|kit Roni]] — 1 noticias
+- [[municiones]] — 1 noticias
+- [[pasta_base|pasta base]] — 1 noticias
+- [[pesos]] — 1 noticias
+- [[pesos_en_efectivo|pesos en efectivo]] — 1 noticias
+- [[pistola]] — 1 noticias
+- [[pistola_calibre_22|pistola calibre .22]] — 1 noticias
+- [[pistola_marca_Glock_calibre_9_mm|pistola marca Glock calibre 9 mm]] — 1 noticias
+- [[pistolas]] — 1 noticias
+- [[potes_plasticos_de_quitamanchas_para_ropa|potes plasticos de quitamanchas para ropa]] — 1 noticias
+- [[revolver]] — 1 noticias
+- [[revolver_calibre_38|revolver calibre .38]] — 1 noticias
+- [[revolveres]] — 1 noticias
+- [[rifle]] — 1 noticias
+- [[rifle_a_postones|rifle a postones]] — 1 noticias
+- [[rifles]] — 1 noticias
+- [[telefonos_celulares|telefonos celulares]] — 1 noticias
+- [[vehiculos_motorizados|vehiculos motorizados]] — 1 noticias

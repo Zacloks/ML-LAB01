@@ -1,0 +1,101 @@
+{
+  "id_noticia": "N024",
+  "titulo": "Detienen a dos líderes de banda criminal en San Bernardo: incautaron fusil de guerra, sustancias ilícitas y dinero en efectivo",
+  "fecha_publicacion": "2026-09-26",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/detienen-a-dos-lideres-de-banda-criminal-en-san-bernardo-incautaron-fusil-de-guerra-sustancias-ilicitas-y-dinero-en-efectivo/",
+  "resumen": "La PDI detuvo a dos líderes de una banda criminal en la comuna de San Bernardo, Región Metropolitana. Durante el operativo se incautaron armas de fuego, incluyendo un fusil de guerra, además de sustancias ilícitas y dinero en efectivo.",
+  "delitos": [
+    "Trafico de drogas",
+    "Porte ilegal de armas"
+  ],
+  "personas": [
+    {
+      "nombre": "Ariel Ramirez",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Martin Arrau",
+      "rol": "autoridad"
+    }
+  ],
+  "organizaciones": [
+    "PDI"
+  ],
+  "lugares": [
+    "San Bernardo",
+    "Region Metropolitana",
+    "Los Olivos"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "sustancias ilicitas",
+      "cantidad": 1292,
+      "unidad": "gramos"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "pistolas",
+      "cantidad": 2,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "revolveres",
+      "cantidad": 2,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "fusil de guerra",
+      "cantidad": 1,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "chaleco antibalas",
+      "cantidad": 1,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "cartuchos",
+      "cantidad": 298,
+      "unidad": null
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "OPERA_EN",
+      "destino": "San Bernardo"
+    },
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Porte ilegal de armas"
+    },
+    {
+      "origen": "sustancias ilicitas",
+      "tipo": "INCAUTADO_EN",
+      "destino": "San Bernardo"
+    },
+    {
+      "origen": "fusil de guerra",
+      "tipo": "INCAUTADO_EN",
+      "destino": "San Bernardo"
+    }
+  ]
+}

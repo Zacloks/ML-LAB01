@@ -1,0 +1,68 @@
+{
+  "id_noticia": "N002",
+  "titulo": "Prisión preventiva para imputado por homicidio en San Ramón: crimen habría estado ligado a deuda por drogas",
+  "fecha_publicacion": "2026-08-23",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/prision-preventiva-para-imputado-por-homicidio-en-san-ramon-crimen-habria-estado-ligado-a-deuda-por-drogas/",
+  "resumen": "Un hombre fue detenido y dejado en prisión preventiva tras ser formalizado por un homicidio ocurrido en San Ramón. La PDI logró su captura e incautó un arma, municiones, cannabis sativa y dinero en efectivo durante el operativo.",
+  "delitos": [
+    "Homicidio",
+    "Trafico de drogas",
+    "Tenencia ilegal de armas"
+  ],
+  "personas": [
+    {
+      "nombre": "Naomi Rebolledo",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Jorge Caceres",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia"
+  ],
+  "lugares": [
+    "San Ramon",
+    "Santiago"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "revolver",
+      "cantidad": 1.0,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "cannabis sativa",
+      "cantidad": 142.1,
+      "unidad": "gramos"
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "efectivo",
+      "cantidad": 395000.0,
+      "unidad": "pesos"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Naomi Rebolledo",
+      "tipo": "PERTENECE_A",
+      "destino": "PDI"
+    },
+    {
+      "origen": "Jorge Caceres",
+      "tipo": "PERTENECE_A",
+      "destino": "Fiscalia"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "San Ramon"
+    }
+  ]
+}

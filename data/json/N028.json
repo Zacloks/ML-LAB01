@@ -1,0 +1,78 @@
+{
+  "id_noticia": "N028",
+  "titulo": "PDI desbarata banda que trasladaba más de 100 kilos de droga desde el norte a Santiago: 5 detenidos",
+  "fecha_publicacion": "2026-09-22",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/22/pdi-desbarata-banda-que-trasladaba-mas-de-100-kilos-de-droga-desde-el-norte-a-santiago-5-detenidos.shtml",
+  "resumen": "La PDI desbarató una banda criminal e incautó más de 100 kilos de droga que eran trasladados desde el norte del pais hacia Santiago en dos vehiculos. En el procedimiento, realizado en la Ruta 5 Norte en la region de Coquimbo, se detuvo a cinco personas y se decomiso armamento.",
+  "delitos": [
+    "Trafico de drogas",
+    "Porte ilegal de armas"
+  ],
+  "personas": [],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Metropolitana Sur",
+    "Brigada Antinarcoticos Metropolitana"
+  ],
+  "lugares": [
+    "Region Metropolitana",
+    "Santiago",
+    "Ruta 5 Norte",
+    "Region de Coquimbo"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": 107,
+      "unidad": "paquetes"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "pasta base de cocaina",
+      "cantidad": 6,
+      "unidad": "paquetes"
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "evaluuo droga",
+      "cantidad": 2500000000,
+      "unidad": "pesos"
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "automoviles",
+      "cantidad": 2,
+      "unidad": "unidades"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "arma de fuego con apariencia de un lapiz",
+      "cantidad": 1,
+      "unidad": "unidad"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Fiscalia Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Trafico de drogas",
+      "tipo": "OCURRIO_EN",
+      "destino": "Region de Coquimbo"
+    },
+    {
+      "origen": "Trafico de drogas",
+      "tipo": "OCURRIO_EN",
+      "destino": "Ruta 5 Norte"
+    }
+  ]
+}

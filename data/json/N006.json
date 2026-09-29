@@ -1,0 +1,80 @@
+{
+  "id_noticia": "N006",
+  "titulo": "Quien era el cabo segundo Cristopher Aguilera, el carabinero asesinado a sangre fria",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/28/quien-era-el-cabo-segundo-cristopher-aguilera-el-carabinero-asesinado-a-sangre-fria-por-un-venezolano.shtml",
+  "resumen": "El cabo segundo de Carabineros Cristopher Aguilera fue asesinado tras recibir un disparo durante un procedimiento en Las Dunas. El atacante fue abatido en el lugar por el compañero de la victima. Autoridades nacionales y policiales condenaron el crimen y expresaron sus condolencias a la institucion y a la familia.",
+  "delitos": [
+    "Homicidio",
+    "Porte ilegal de armas"
+  ],
+  "personas": [
+    {
+      "nombre": "Cristopher Aguilera",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Juan Cheuquiante",
+      "rol": "fiscal"
+    },
+    {
+      "nombre": "Enrique Monras",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Jose Antonio Kast",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Martin Arrau",
+      "rol": "autoridad"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros",
+    "Fiscalia Metropolitana Sur"
+  ],
+  "lugares": [
+    "Las Dunas",
+    "Pirque",
+    "Region Metropolitana"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "arma de fuego",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "arma blanca",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "evidencias balisticas",
+      "cantidad": 30,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Cristopher Aguilera",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Cristopher Aguilera",
+      "tipo": "PERTENECE_A",
+      "destino": "Carabineros"
+    },
+    {
+      "origen": "Fiscalia Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id_noticia": "N026",
+  "titulo": "Operación Sintonía 1533: detienen en Chile a 7 integrantes de la mayor banda criminal de Brasil",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/09/28/operacion-sintonia-1533-detienen-en-chile-a-7-integrantes-de-la-mayor-banda-criminal-de-brasil.shtml",
+  "resumen": "La PDI y la Fiscalia Regional Metropolitana Sur llevaron a cabo la Operacion Sintonia 1533, logrando la detencion de siete presuntos integrantes del Primeiro Comando da Capital. El operativo incluyo allanamientos en multiples domicilios y centros penitenciarios, permitiendo incautar armas, dinero y droga.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Pablo Godoy",
+      "rol": "policia"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Regional Metropolitana Sur",
+    "Primeiro Comando da Capital"
+  ],
+  "lugares": [
+    "Chile",
+    "Brasil",
+    "Region Metropolitana"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "armas",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "cocaina",
+      "cantidad": 3.0,
+      "unidad": "kilos"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Fiscalia Regional Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Primeiro Comando da Capital",
+      "tipo": "OPERA_EN",
+      "destino": "Chile"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id_noticia": "N020",
+  "titulo": "Prision preventiva para 17 imputados de organizacion criminal de Puente Alto por trafico, lavado y asociacion ilicita",
+  "fecha_publicacion": "2026-08-08",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/prision-preventiva-para-17-imputados-de-organizacion-criminal-de-puente-alto-por-trafico-lavado-y-asociacion-ilicita/",
+  "resumen": "Diecisiete imputados quedaron en prision preventiva tras ser formalizados por integrar una organizacion criminal dedicada al trafico de drogas, lavado de activos y asociacion ilicita en Puente Alto. La investigacion fue liderada por la Fiscalia junto a la PDI, logrando la incautacion de drogas, armas, dinero y vehiculos.",
+  "delitos": [
+    "Trafico de drogas",
+    "Asociacion ilicita",
+    "Lavado de activos"
+  ],
+  "personas": [
+    {
+      "nombre": "Javier Carreno Lavin",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "Fiscalia Local de Puente Alto",
+    "Fiscalia Regional Metropolitana Sur",
+    "Policia de Investigaciones (PDI)"
+  ],
+  "lugares": [
+    "Puente Alto",
+    "Region Metropolitana"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "droga",
+      "cantidad": null,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "especies balisticas",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculos motorizados",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Javier Carreno Lavin",
+      "tipo": "PERTENECE_A",
+      "destino": "Fiscalia Local de Puente Alto"
+    },
+    {
+      "origen": "Trafico de drogas",
+      "tipo": "OCURRIO_EN",
+      "destino": "Puente Alto"
+    },
+    {
+      "origen": "Asociacion ilicita",
+      "tipo": "OCURRIO_EN",
+      "destino": "Puente Alto"
+    },
+    {
+      "origen": "Lavado de activos",
+      "tipo": "OCURRIO_EN",
+      "destino": "Puente Alto"
+    },
+    {
+      "origen": "Fiscalia Local de Puente Alto",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Fiscalia Local de Puente Alto",
+      "tipo": "INVESTIGA",
+      "destino": "Asociacion ilicita"
+    },
+    {
+      "origen": "Fiscalia Local de Puente Alto",
+      "tipo": "INVESTIGA",
+      "destino": "Lavado de activos"
+    }
+  ]
+}

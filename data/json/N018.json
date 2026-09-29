@@ -1,0 +1,125 @@
+{
+  "id_noticia": "N018",
+  "titulo": "Prisión preventiva para dos líderes de banda que operaba laboratorio clandestino de drogas en La Pintana",
+  "fecha_publicacion": "2026-09-06",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/prision-preventiva-para-dos-lideres-de-banda-que-operaba-laboratorio-clandestino-de-drogas-en-la-pintana/",
+  "resumen": "Dos líderes de una organización criminal dedicada al tráfico de drogas quedaron en prisión preventiva tras un operativo en La Pintana. La PDI y la Fiscalía desmantelaron un laboratorio clandestino, detuvieron a seis personas e incautaron drogas, armas y precursores químicos.",
+  "delitos": [
+    "Trafico de drogas",
+    "Porte ilegal de armas"
+  ],
+  "personas": [
+    {
+      "nombre": "Milibor Bugueño González",
+      "rol": "fiscal"
+    },
+    {
+      "nombre": "Ronald Alvear",
+      "rol": "policia"
+    }
+  ],
+  "organizaciones": [
+    "Fiscalia Regional Metropolitana Sur",
+    "Policia de Investigaciones",
+    "Ministerio Publico"
+  ],
+  "lugares": [
+    "La Pintana",
+    "poblacion El Roble",
+    "poblacion San Ricardo"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "pasta base de cocaina",
+      "cantidad": 7,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "arma de fuego",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "cocaina base",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "cera",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "acido clorhidrico diluido",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "hidroxido de sodio",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "bicarbonato de sodio",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "sustancias ilicitas",
+      "cantidad": 10,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "pesos",
+      "cantidad": 162000000,
+      "unidad": "pesos"
+    },
+    {
+      "tipo": "arma",
+      "nombre": "revolver calibre .38",
+      "cantidad": 1,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "rifle",
+      "cantidad": 1,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "cargadores",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "municiones",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "otro",
+      "nombre": "kit Roni",
+      "cantidad": 1,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Milibor Bugueño González",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    }
+  ]
+}

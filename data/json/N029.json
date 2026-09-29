@@ -1,0 +1,94 @@
+{
+  "id_noticia": "N029",
+  "titulo": "Fiscalia y Carabineros desmantelan grupo criminal multinacional e incautan mas de 300 kilos de droga en Antofagasta",
+  "fecha_publicacion": "2026-09-02",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/fiscalia-y-carabineros-desmantelan-grupo-criminal-multinacional-e-incautan-mas-de-300-kilos-de-droga-en-antofagasta/",
+  "resumen": "La Fiscalia y Carabineros desmantelaron una organizacion criminal multinacional en Antofagasta, incautando mas de 300 kilos de droga y deteniendo a 13 personas. El operativo incluyo diligencias en Tocopilla, Antofagasta y Alto Hospicio.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Juan Castro Bekios",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros",
+    "Fiscalia SAC de Antofagasta",
+    "Ministerio Publico"
+  ],
+  "lugares": [
+    "Tocopilla",
+    "Antofagasta",
+    "Alto Hospicio",
+    "region"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "marihuana",
+      "cantidad": 302.415,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": 6.18,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "pasta base",
+      "cantidad": 1.011,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": 14000000,
+      "unidad": "pesos"
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculos",
+      "cantidad": 4,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": 1.059,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "pasta base",
+      "cantidad": 13.17,
+      "unidad": "kilos"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Fiscalia SAC de Antofagasta",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Fiscalia SAC de Antofagasta",
+      "tipo": "OPERA_EN",
+      "destino": "Antofagasta"
+    },
+    {
+      "origen": "Carabineros",
+      "tipo": "OPERA_EN",
+      "destino": "Antofagasta"
+    },
+    {
+      "origen": "Trafico de drogas",
+      "tipo": "OCURRIO_EN",
+      "destino": "Antofagasta"
+    }
+  ]
+}

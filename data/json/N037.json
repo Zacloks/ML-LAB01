@@ -1,0 +1,44 @@
+{
+  "id_noticia": "N037",
+  "titulo": "Hombre muere baleado en Recoleta: investigan eventual robo de su automovil",
+  "fecha_publicacion": "2026-09-26",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/hombre-muere-baleado-en-recoleta-investigan-eventual-robo-de-su-automovil/",
+  "resumen": "Un hombre murio tras recibir un impacto balistico en la comuna de Recoleta. La PDI y la Fiscalia investigan el hecho, barajando como hipotesis el robo de su vehiculo. La identidad de la victima aun no ha sido establecida.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Marcelo Navarro",
+      "rol": "policia"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Regional Metropolitana Centro Norte"
+  ],
+  "lugares": [
+    "avenida Santa Maria",
+    "Recoleta",
+    "Posta Central"
+  ],
+  "objetos": [],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Fiscalia Regional Metropolitana Centro Norte",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "avenida Santa Maria"
+    }
+  ]
+}

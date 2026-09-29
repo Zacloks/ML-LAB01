@@ -1,0 +1,63 @@
+{
+  "id_noticia": "N034",
+  "titulo": "Acribillan un vehiculo cerca de local nocturno de Lota, dejando un hombre muerto y dos mujeres graves",
+  "fecha_publicacion": "2026-09-26",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-del-bio-bio/2026/09/26/acribillan-un-vehiculo-cerca-de-local-nocturno-de-lota-dejando-un-hombre-muerto-y-dos-mujeres-graves.shtml",
+  "resumen": "Un hombre murio y dos mujeres resultaron heridas de gravedad tras ser baleados al interior de un vehiculo en la comuna de Coronel. El Ministerio Publico y la Policia de Investigaciones indagan el homicidio consumado y los dos homicidios frustrados.",
+  "delitos": [
+    "Homicidio",
+    "Homicidio frustrado"
+  ],
+  "personas": [],
+  "organizaciones": [
+    "Ministerio Publico",
+    "Policia de Investigaciones",
+    "Carabineros"
+  ],
+  "lugares": [
+    "Coronel",
+    "Playa Blanca",
+    "Lota"
+  ],
+  "objetos": [
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculo",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Ministerio Publico",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Ministerio Publico",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio frustrado"
+    },
+    {
+      "origen": "Policia de Investigaciones",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Policia de Investigaciones",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio frustrado"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Coronel"
+    },
+    {
+      "origen": "Homicidio frustrado",
+      "tipo": "OCURRIO_EN",
+      "destino": "Coronel"
+    }
+  ]
+}

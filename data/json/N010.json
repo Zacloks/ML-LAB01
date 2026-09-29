@@ -1,0 +1,63 @@
+{
+  "id_noticia": "N010",
+  "titulo": "Alcaldesa Javiera Reyes tras homicidio de carabinero en Lo Espejo: necesitamos intervenciones profundas urgentes",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/alcaldesa-javiera-reyes-tras-homicidio-de-carabinero-en-lo-espejo-necesitamos-intervenciones-profundas-urgentes/",
+  "resumen": "Un cabo segundo de Carabineros fue baleado y asesinado durante un procedimiento de fiscalizacion en la comuna de Lo Espejo. El homicida fue abatido por personal policial en el lugar de los hechos. La alcaldesa de la comuna manifesto su pesar y exigio intervenciones de seguridad urgentes.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Javiera Reyes",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Cristopher Andres Aguilera Fernandez",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Brayan Farias Diaz",
+      "rol": "detenido"
+    },
+    {
+      "nombre": "Hector Cardenas Venegas",
+      "rol": "victima"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros"
+  ],
+  "lugares": [
+    "Lo Espejo",
+    "Las Dunas",
+    "Clinica Las Condes",
+    "Jose Maria Caro"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "armas",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Brayan Farias Diaz",
+      "tipo": "DETENIDO_EN",
+      "destino": "Las Dunas"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Las Dunas"
+    }
+  ]
+}

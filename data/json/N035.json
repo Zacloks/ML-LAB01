@@ -1,0 +1,62 @@
+{
+  "id_noticia": "N035",
+  "titulo": "Venta de droga habría derivado en asesinato y doble homicidio frustrado en Playa Blanca, Coronel",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "BioBioChile",
+  "url": "https://www.biobiochile.cl/noticias/nacional/region-del-bio-bio/2026/09/28/venta-de-droga-habria-derivado-en-asesinato-y-doble-homicidio-frustrado-en-playa-blanca-coronel.shtml",
+  "resumen": "Un asesinato y un doble homicidio frustrado ocurrieron en la comuna de Coronel, presuntamente originados por una transacción de drogas. La Policia de Investigaciones realiza diligencias para dar con los responsables tras el ataque armado.",
+  "delitos": [
+    "Homicidio",
+    "Homicidio frustrado",
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Richard Soto",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Ignacio Arriagada Pampanoli",
+      "rol": "victima"
+    }
+  ],
+  "organizaciones": [
+    "Gobierno",
+    "PDI"
+  ],
+  "lugares": [
+    "Coronel",
+    "Region del Bio Bio",
+    "Playa Blanca",
+    "Lota",
+    "San Pedro de la Paz"
+  ],
+  "objetos": [],
+  "relaciones": [
+    {
+      "origen": "Ignacio Arriagada Pampanoli",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Coronel"
+    },
+    {
+      "origen": "Homicidio frustrado",
+      "tipo": "OCURRIO_EN",
+      "destino": "Coronel"
+    },
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio frustrado"
+    }
+  ]
+}

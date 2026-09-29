@@ -1,0 +1,62 @@
+{
+  "id_noticia": "N022",
+  "titulo": "PDI desarticula banda liderada desde la carcel e incauta mas de 400 kilos de droga en La Florida y Pudahuel",
+  "fecha_publicacion": "2026-09-23",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/lideraba-desde-la-carcel-pdi-desarticula-banda-e-incauta-mas-de-400-kilos-de-droga-en-la-florida-y-pudahuel/",
+  "resumen": "La PDI y la Fiscalia Metropolitana Sur desarticularon una banda criminal dedicada al trafico de drogas liderada por un sujeto desde la carcel. Durante los operativos en La Florida y Pudahuel se incautaron mas de 400 kilos de droga y se detuvo a dos mujeres. Los implicados fueron formalizados por trafico de drogas y quedaron en prision preventiva.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Erick Menay",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Sergio Soto",
+      "rol": "fiscal"
+    },
+    {
+      "nombre": "Hector Barros",
+      "rol": "fiscal"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Metropolitana Sur",
+    "Gendarmeria"
+  ],
+  "lugares": [
+    "Puente Alto",
+    "La Florida",
+    "Pudahuel",
+    "Santiago"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": 361,
+      "unidad": "kilos"
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "cocaina base",
+      "cantidad": 51,
+      "unidad": "kilos"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Fiscalia Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    }
+  ]
+}

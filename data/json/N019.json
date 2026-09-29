@@ -1,0 +1,92 @@
+{
+  "id_noticia": "N019",
+  "titulo": "PDI detiene a 21 personas y desarticula clan familiar dedicado al tráfico de drogas en Puente Alto",
+  "fecha_publicacion": "2026-08-09",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/pdi-detiene-a-21-personas-y-desarticula-clan-familiar-dedicado-al-trafico-de-drogas-en-puente-alto/",
+  "resumen": "La PDI detuvo a 21 personas e incautó drogas, dinero y armas en un operativo realizado en Puente Alto. La investigación fue coordinada con la Fiscalia Metropolitana Sur y permitió desarticular un clan familiar dedicado al tráfico de drogas.",
+  "delitos": [
+    "Trafico de drogas"
+  ],
+  "personas": [
+    {
+      "nombre": "Lucas Riroroko",
+      "rol": "policia"
+    }
+  ],
+  "organizaciones": [
+    "PDI",
+    "Fiscalia Metropolitana Sur"
+  ],
+  "lugares": [
+    "poblacion Esperanza",
+    "Puente Alto",
+    "Region Metropolitana"
+  ],
+  "objetos": [
+    {
+      "tipo": "sustancia",
+      "nombre": "clorhidrato de cocaina",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "cocaina base",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "cannabis",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "sustancia",
+      "nombre": "ketamina",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "dinero",
+      "nombre": "dinero en efectivo",
+      "cantidad": 6000000,
+      "unidad": "pesos"
+    },
+    {
+      "tipo": "vehiculo",
+      "nombre": "vehiculos",
+      "cantidad": 3,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "escopeta artesanal tipo hechiza",
+      "cantidad": 1,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "PDI",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Fiscalia Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Trafico de drogas"
+    },
+    {
+      "origen": "Lucas Riroroko",
+      "tipo": "PERTENECE_A",
+      "destino": "PDI"
+    },
+    {
+      "origen": "Trafico de drogas",
+      "tipo": "OCURRIO_EN",
+      "destino": "Puente Alto"
+    }
+  ]
+}

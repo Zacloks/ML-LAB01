@@ -1,0 +1,96 @@
+{
+  "id_noticia": "N005",
+  "titulo": "Muere carabinero baleado en Lo Espejo: funcionario falleció tras permanecer grave en Clínica Las Condes",
+  "fecha_publicacion": "2026-09-28",
+  "fuente": "LaTercera",
+  "url": "https://www.latercera.com/nacional/noticia/muere-carabinero-baleado-en-lo-espejo-funcionario-fallecio-tras-permanecer-grave-en-clinica-las-condes/",
+  "resumen": "Un carabinero falleció tras ser baleado durante un procedimiento policial en la comuna de Lo Espejo. La Fiscalia Regional Metropolitana Sur abrió una investigación por homicidio consumado tras el enfrentamiento.",
+  "delitos": [
+    "Homicidio"
+  ],
+  "personas": [
+    {
+      "nombre": "Jorge Dreyse",
+      "rol": "otro"
+    },
+    {
+      "nombre": "Cristopher Andres Aguilera Fernandez",
+      "rol": "victima"
+    },
+    {
+      "nombre": "Pablo Aguilera",
+      "rol": "otro"
+    },
+    {
+      "nombre": "Enrique Monras",
+      "rol": "policia"
+    },
+    {
+      "nombre": "Juan Cheuquiante",
+      "rol": "fiscal"
+    },
+    {
+      "nombre": "Martin Arrau",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Kast",
+      "rol": "autoridad"
+    },
+    {
+      "nombre": "Jose Antonio Kast",
+      "rol": "autoridad"
+    }
+  ],
+  "organizaciones": [
+    "Carabineros",
+    "Fiscalia Regional Metropolitana Sur",
+    "Labocar"
+  ],
+  "lugares": [
+    "Lo Espejo",
+    "Region Metropolitana",
+    "poblacion Las Dunas"
+  ],
+  "objetos": [
+    {
+      "tipo": "arma",
+      "nombre": "arma de fuego",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "tipo": "arma",
+      "nombre": "arma de servicio",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Cristopher Andres Aguilera Fernandez",
+      "tipo": "VICTIMA_DE",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Fiscalia Regional Metropolitana Sur",
+      "tipo": "INVESTIGA",
+      "destino": "Homicidio"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Lo Espejo"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "poblacion Las Dunas"
+    },
+    {
+      "origen": "Homicidio",
+      "tipo": "OCURRIO_EN",
+      "destino": "Region Metropolitana"
+    }
+  ]
+}
