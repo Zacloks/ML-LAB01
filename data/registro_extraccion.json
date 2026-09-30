@@ -1,0 +1,298 @@
+[
+  {
+    "id_noticia": "N001",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:21:12",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 4
+  },
+  {
+    "id_noticia": "N002",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:21:24",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N003",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:21:35",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N004",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:21:44",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N005",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:21:53",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N006",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:22:06",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N007",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:22:15",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N008",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:22:24",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N009",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:22:33",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N010",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:22:42",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N011",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:22:51",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N012",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:23:00",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N013",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:23:09",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N014",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:23:19",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N015",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:23:29",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N016",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:23:37",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N017",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:23:45",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N018",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:23:55",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N019",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:24:04",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N020",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:24:14",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N021",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:24:22",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N022",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:24:32",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N023",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:24:41",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N024",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:24:50",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N025",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:24:59",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N026",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:25:07",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N027",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:25:16",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N028",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:25:26",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N029",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:25:35",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N030",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:25:45",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N031",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:25:54",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N032",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:26:03",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N033",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:26:13",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N034",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:26:21",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N035",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:26:30",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N036",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:26:40",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  },
+  {
+    "id_noticia": "N037",
+    "modo": "esquema",
+    "estado": "ok",
+    "fecha_ejecucion": "2026-09-29T17:26:49",
+    "modelo": "gemini-3.5-flash-lite",
+    "intentos": 1
+  }
+]

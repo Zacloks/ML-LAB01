@@ -27,7 +27,6 @@ data/json/*.json
 !data/processed/.gitkeep
 !data/json/.gitkeep
 !data/json/ejemplo_N001.json
-data/registro_*.json
 
 # Notas generadas del vault (se conservan las carpetas)
 obsidian_vault/**/*.md

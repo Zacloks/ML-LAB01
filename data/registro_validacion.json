@@ -1,0 +1,10 @@
+{
+  "fallos": [],
+  "advertencias": [
+    {
+      "id_noticia": "N031",
+      "tipo": "relacion_sin_respaldo",
+      "detalle": "sustancia -- INCAUTADO_EN --> Region Metropolitana"
+    }
+  ]
+}
